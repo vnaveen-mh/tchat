@@ -1,0 +1,32 @@
+# Exclude source‑control artifacts
+.git
+.gitignore
+.gitmodules
+
+# Exclude build/temporary files
+node_modules
+dist
+build
+tmp
+
+# Exclude IDE / editor folders
+.vscode
+.idea
+
+# Exclude Docker files themselves
+Dockerfile
+docker-compose*.yml
+
+# Exclude system‑specific files
+*.DS_Store
+*.log
+
+# temp files
+temp.*
+
+# genkit files
+.genkit/
+
+# tchat files
+tchat-data/
+tchat
